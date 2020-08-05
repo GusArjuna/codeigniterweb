@@ -16,8 +16,6 @@
                             <p class="card-text"><b>Creator : </b><?= $comics['creator']; ?></p>
                             <p class="card-text"><b>Publisher : </b><?= $comics['publisher']; ?></p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            <a href="" class="btn btn-success">Edit</a>
-                            <a href="" class="btn btn-danger">Delete</a><br>
                             <a href="/comics" class="btn btn-primary float-right">Go Back</a>
                         </div>
                     </div>
