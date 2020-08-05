@@ -1,2 +1,8 @@
-<h1>about</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus commodi suscipit repellat iusto iure illum architecto error ratione non voluptatibus qui inventore accusantium, placeat atque deleniti consectetur a fugit aliquid.</p>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>about</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ipsam.</p>
+        </div>
+    </div>
+</div>

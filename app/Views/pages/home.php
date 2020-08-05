@@ -1,2 +1,8 @@
-<h1>Home</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit veritatis dignissimos at? Amet quod rerum vero animi ab cum, ex nostrum enim necessitatibus mollitia numquam. Odit praesentium minus laudantium.</p>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Home</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ipsam.</p>
+        </div>
+    </div>
+</div>
