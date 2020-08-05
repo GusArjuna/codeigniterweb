@@ -19,4 +19,12 @@ class Pages extends BaseController
 		];
 		return view("pages/about", $data);
 	}
+
+	public function contact()
+	{
+		$data = [
+			'judul' => 'Contact | Codeigniter'
+		];
+		return view("pages/contact", $data);
+	}
 }
