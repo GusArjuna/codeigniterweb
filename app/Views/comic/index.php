@@ -6,8 +6,8 @@
         <div class="col">
             <h3 class="mt-2">List Comics</h3>
             <div class="comics-table">
-                <table class="table table-striped table-dark">
-                    <thead>
+                <table class="table table-striped">
+                    <thead class="thead-dark">
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Pic</th>
@@ -16,16 +16,19 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td><img src="/img/kanokari.JPG" alt="" width="70"></td>
-                            <td>Narto</td>
-                            <td>
-                                <a href="" class="btn btn-primary">Detail</a>
-                                <a href="" class="btn btn-success">Edit</a>
-                                <a href="" class="btn btn-danger">Delete</a>
-                            </td>
-                        </tr>
+                        <?php $i = 1; ?>
+                        <?php foreach ($comics as $comic) : ?>
+                            <tr>
+                                <th scope="row"><?= $i++; ?></th>
+                                <td><img src="/img/<?= $comic['cover']; ?>" alt="" width="70"></td>
+                                <td><?= $comic['title']; ?></td>
+                                <td>
+                                    <a href="" class="btn btn-primary">Detail</a>
+                                    <a href="" class="btn btn-success">Edit</a>
+                                    <a href="" class="btn btn-danger">Delete</a>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
                     </tbody>
                 </table>
             </div>
