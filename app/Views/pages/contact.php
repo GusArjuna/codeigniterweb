@@ -5,7 +5,13 @@
     <div class="row">
         <div class="col">
             <h1>Contact</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ipsam.</p>
+            <?php foreach ($alamat as $a) : ?>
+                <ul>
+                    <li><?= $a['tipe']; ?></li>
+                    <li><?= $a['jalan']; ?></li>
+                    <li><?= $a['kota']; ?></li>
+                </ul>
+            <?php endforeach; ?>
         </div>
     </div>
 </div>
