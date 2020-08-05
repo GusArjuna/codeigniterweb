@@ -7,7 +7,7 @@ class Pages extends BaseController
 	public function index()
 	{
 		$data = [
-			'judul' => 'Home | Codeigniter'
+			'title' => 'Home | Codeigniter'
 		];
 		return view("pages/home", $data);
 	}
@@ -15,7 +15,7 @@ class Pages extends BaseController
 	public function about()
 	{
 		$data = [
-			'judul' => 'About | Codeigniter'
+			'title' => 'About | Codeigniter'
 		];
 		return view("pages/about", $data);
 	}
@@ -23,16 +23,16 @@ class Pages extends BaseController
 	public function contact()
 	{
 		$data = [
-			'judul' => 'Contact | Codeigniter',
-			'alamat' => [
+			'title' => 'Contact | Codeigniter',
+			'addresses' => [
 				[
-					'tipe' => 'rumah',
-					'jalan' => 'JL. Waru wani ruwet',
-					'kota' => 'Sidoarjo'
+					'type' => 'rumah',
+					'road' => 'JL. Waru wani ruwet',
+					'city' => 'Sidoarjo'
 				], [
-					'tipe' => 'kantor',
-					'jalan' => 'JL. Lamongan Rusak',
-					'kota' => 'Surabaya'
+					'type' => 'kantor',
+					'road' => 'JL. Lamongan Rusak',
+					'city' => 'Surabaya'
 				]
 			]
 		];

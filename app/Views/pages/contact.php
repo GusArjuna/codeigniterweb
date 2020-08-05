@@ -5,11 +5,11 @@
     <div class="row">
         <div class="col">
             <h1>Contact</h1>
-            <?php foreach ($alamat as $a) : ?>
+            <?php foreach ($addresses as $address) : ?>
                 <ul>
-                    <li><?= $a['tipe']; ?></li>
-                    <li><?= $a['jalan']; ?></li>
-                    <li><?= $a['kota']; ?></li>
+                    <li><?= $address['type']; ?></li>
+                    <li><?= $address['road']; ?></li>
+                    <li><?= $address['city']; ?></li>
                 </ul>
             <?php endforeach; ?>
         </div>

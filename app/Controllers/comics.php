@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use App\Models\ComicModel;
 
-class comics extends BaseController
+class Comics extends BaseController
 {
     protected $comicModel;
     public function __construct()
@@ -13,11 +13,20 @@ class comics extends BaseController
     }
     public function index()
     {
-        $comics = $this->comicModel->findAll();
+        // $comics = $this->comicModel->findAll();
         $data = [
-            'judul' => 'Comics | Codeigniter',
-            'comics' => $comics
+            'title' => 'Comics | Codeigniter',
+            'comics' => $this->comicModel->getComic()
         ];
         return view("comic/index", $data);
+    }
+
+    public function detail($slug)
+    {
+        $data = [
+            'title' => 'Detail | Codeigniter',
+            'comics' => $this->comicModel->getComic($slug)
+        ];
+        return view("comic/detail", $data);
     }
 }

@@ -23,9 +23,7 @@
                                 <td><img src="/img/<?= $comic['cover']; ?>" alt="" width="70"></td>
                                 <td><?= $comic['title']; ?></td>
                                 <td>
-                                    <a href="" class="btn btn-primary">Detail</a>
-                                    <a href="" class="btn btn-success">Edit</a>
-                                    <a href="" class="btn btn-danger">Delete</a>
+                                    <a href="/comics/<?= $comic['slug']; ?>" class="btn btn-info">Detail</a>
                                 </td>
                             </tr>
                         <?php endforeach; ?>
