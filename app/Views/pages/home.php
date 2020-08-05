@@ -1,14 +1,2 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-
-<body>
-    <h1>Home</h1>
-</body>
-
-</html>
+<h1>Home</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo impedit veritatis dignissimos at? Amet quod rerum vero animi ab cum, ex nostrum enim necessitatibus mollitia numquam. Odit praesentium minus laudantium.</p>
